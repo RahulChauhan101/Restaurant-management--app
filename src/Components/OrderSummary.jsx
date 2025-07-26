@@ -6,6 +6,13 @@ const OrderSummary = ({ order, setOrder }) => {
   const navigate = useNavigate();
 
   // Group items by name with quantity
+  // Group items by name with quantity
+  // Group items by name with quantity
+  // Group items by name with quantity
+  // Group items by name with quantity
+  // Group items by name with quantity
+  // Group items by name with quantity
+  // Group items by name with quantity
   const groupedOrder = Object.values(
     order.reduce((acc, item) => {
       if (!acc[item.name]) {
