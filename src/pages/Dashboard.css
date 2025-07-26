@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #0fbe3d;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #34495e;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+li {
+  background-color: #ecf0f1;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+li:hover {
+  transform: scale(1.05);
+  background-color: #dfe6e9;
+}
