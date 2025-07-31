@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./Dashboard.css";
-const tables = [1, 2, 3, 4, 5];
+const tables = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 const Dashboard = () => {
   const navigate = useNavigate();

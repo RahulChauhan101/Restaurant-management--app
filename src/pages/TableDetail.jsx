@@ -34,12 +34,6 @@ const TableDetail = () => {
         <h1>Table {table.number}</h1>
         <p>Select items for this table:</p>
         <p>Select items for this table:</p>
-        {/* <p>Select items for this table:</p> */}
-        {/* <p>Select items for this table:</p> */}
-        {/* <p>Select items for this table:</p> */}
-        {/* <p>Select items for this table:</p> */}
-        {/* <p>Select items for this table:</p> */}
-        {/* <p>Select items for this table:</p> */}
       </div>
 
       <div className="table-detail">

@@ -9,10 +9,7 @@ const Billing = () => {
 
   return (
     <div className="billing">
-      <h1>Billing Summary</h1>
-      <h2>Restaurant Bill</h2>
-      <h2>Restaurant Bill</h2>
-      <h2>Restaurant Bill</h2>
+      <h1>Billing </h1>
       <h2>Restaurant Bill</h2>
       {order.length === 0 ? (
         <p>No order data found.</p>
